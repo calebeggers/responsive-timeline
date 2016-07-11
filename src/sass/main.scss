@@ -1,0 +1,64 @@
+@media screen and (min-width: 400px) {
+
+	.post-1 {
+		padding: 10px;
+		margin-left: 10%;
+		margin-right: 13%;
+	}
+
+	.post-2 {
+		padding: 10px;
+		margin: 30px
+	}
+
+	.data {
+		display: block;
+		height: 40px;
+		position: relative;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.date {
+		font-size: 1em;
+	}
+
+	.time-info {
+		float: left;
+	}
+
+	.time-stamp {
+		font-size: 1.5em;
+	}
+
+	.icon {
+		float: right;
+		background-color: #46a4da;
+		height: 40px;
+		width: 40px;
+		border-radius: 100%;
+	}
+
+	.icon img {
+		padding-left: 8px;
+		padding-top: 4px; 
+	}
+
+	.icon::before {
+		background-color: #afdcf8;
+		content: "";
+		position: absolute;
+		left: 80%;
+		top: -10%;
+		width: 60px;
+		height: 60px;
+		border-radius: 100%;
+		z-index: -1;
+	}
+
+	.comment {
+		background-color: #6cbfee;
+		border-radius: 5px;
+		padding: 15px 10px;
+	}
+}
