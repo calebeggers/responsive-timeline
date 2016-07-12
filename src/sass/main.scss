@@ -13,7 +13,7 @@
 
 	.data {
 		display: block;
-		height: 40px;
+		overflow: auto;
 		position: relative;
 		margin-top: 30px;
 		margin-bottom: 30px;
@@ -123,5 +123,44 @@
 		left: 115px;
 		height: 100%;
 		z-index: -2;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.post-1 {
+		margin-right: 30px;
+		position: relative;
+	}
+
+	.post-2 {
+		margin-right: 30px;
+		position: relative;
+	}
+
+	.time-stamp {
+		font-size: 2.5em;
+	}
+
+	.data {
+		position: absolute;
+		left: 100px;
+		width: 200px;
+	}
+
+	.date {
+		float: right;
+	}
+
+	.icon {
+		position: absolute;
+		left: 110px;
+	}
+
+	.comment-1::before {
+		left: 235px;
+	}
+
+	.comment-2::before {
+		left: 235px;
 	}
 }
